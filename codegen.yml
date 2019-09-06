@@ -1,0 +1,7 @@
+generates:
+  .generated/graphql.ts:
+    documents:
+      - ./src/server.js
+    schema: http://localhost:4000
+    plugins:
+      - typescript
